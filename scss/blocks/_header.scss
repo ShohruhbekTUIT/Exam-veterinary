@@ -1,0 +1,178 @@
+
+.site-header__top{
+  display: flex;
+  padding: 13px 45px 13px 220px; 
+}
+.site-header__address{
+  font-family: "Futura" , serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  margin-right: 83px;
+}
+.site-header__address::before{
+  content: "";
+  background-image: url(../images/house.svg);
+  width: 14px;
+  height: 13px;
+  margin-right: 9px;
+
+}
+.site-header__phone{
+  display: flex;
+  width: 396px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 76px;
+&::before{
+  content: "";
+  background-image: url(../../images/phone.svg);
+  width: 13px;
+  height: 13px;
+  margin-right: 9px;
+}
+
+}
+.site-header__tel{
+  display: flex;
+  align-items: center;
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #333333;
+  &:nth-child(2)::before{
+    content: "";
+    background-image: url(../../images/Ellipse.svg);
+    width: 4px;
+    height: 4px;
+    margin-right: 9px;
+  }
+  &:nth-child(2)::after{
+    content: "";
+    background-image: url(../../images/Ellipse.svg);
+    width: 4px;
+    height: 4px;
+    margin-left: 9px;
+  }
+  &:hover{
+    color: #FFBD54;
+  }
+  &:active{
+    color: #333333;
+    opacity: 0.6;
+  }
+}
+
+.site-header__data{
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+.site-header__data::before{
+  content: "";
+  background-image: url(../../images/kalendar.svg);
+  width: 14px;
+  height: 14px;
+  margin-right: 9px;
+}
+.site-header__time:nth-child(1){
+  margin-right: 17px;
+}
+.site-header__inner{
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid #F3F3F3;
+  box-sizing: border-box;
+}
+.site-header__img{
+  position: absolute;
+  z-index: 2;
+  margin-right: 95px;
+  margin-left: 65px;
+  &:hover{
+    opacity: 0.8;
+  }
+  &:active{
+    opacity: 0.6;
+  }
+}
+.site-logo{
+  width: 178px;
+  height: 86px;
+
+}
+.site-header__list{
+  margin-left: 358px;
+  padding: 0;
+  display: flex;
+  margin-right: 145px;
+}
+.site-header__item{
+  display: flex;
+  list-style: none;
+  border-bottom: 3px solid transparent;
+  &:nth-child(1)::before{
+    content: "";
+    background-image: url(../../images/fish.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 15px;
+    margin-right: 10px;
+  }
+  &:hover{
+    border-bottom: 3px solid yellow;
+  }
+  &:active{
+    opacity: 0.6;
+  }
+}
+.site-header__item + .site-header__item{
+  margin-left: 45px;
+}
+.site-header__item-link{
+ text-decoration: none;
+ font-family: "Futura";
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 21px;
+ color: #333333;
+ 
+}
+.site-header__link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: right;
+  color: #333333;
+  &::before{
+    content: "";
+    background-image: url(../../images/pet.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 23px;
+    height: 21px;
+    margin-right: 4px;
+  }
+}

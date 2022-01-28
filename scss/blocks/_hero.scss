@@ -1,0 +1,57 @@
+.hero{
+  background-image: url(../../images/animals.png) , url(../../images/bird.png);
+  background-repeat: no-repeat;
+  background-size: 870px 834px , 319px 430px;
+  background-position: calc(50% - 460px) calc(50% - 160px),calc(50% + 610px) calc(50% + 100px);
+  padding: 153px 97px 540px 655px;
+  
+}
+
+.hero__info{
+  width: 610px;
+  margin-right: 97px;
+}
+.hero__title{
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 29px;
+  & span{
+    color: #78C0DE;
+  } 
+}
+.hero__text{
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  width: 495px;
+  line-height: 21px;
+  color: #949494;
+  margin: 0;
+  margin-bottom: 38px;
+}
+.hero__link{
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #333333;
+  border-radius: 3px;
+  padding: 15px 48px 16px 47px;
+  &:hover{
+    color: #333333;
+    background-color: #FFBD54;
+    border-radius: 3px;
+  }
+  &:active{
+    opacity: 0.6;
+  }
+}

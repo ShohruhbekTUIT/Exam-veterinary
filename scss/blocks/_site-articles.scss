@@ -1,0 +1,119 @@
+.site-articles{
+  margin-bottom: 265px;
+}
+.site-articles__title{
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 80px;
+}
+.site-articles__list{
+  display: flex;
+  justify-content: space-between;
+}
+.site-articles__item{
+  background-color: #FEFEFE;
+  border: 1px solid #E4E4E2;
+  box-sizing: border-box;
+  border-radius: 5px;
+  list-style: none;
+  height: 435px;
+  &:nth-child(2){
+    display: flex;
+  }
+}
+.site-articles__item-info{
+  width: 305px;
+  padding: 21px 22px 31px 22px;
+}
+.site-articles__img{
+  width: 305px;
+}
+.site-articles__item-hashtime{
+  display: flex;
+  align-items: center;
+  & .site-articles__item-time{
+    margin-left: 67px;
+  }
+}
+.site-articles__item-hashteg{
+  display: flex;
+}
+.site-articles__item-hash{
+  text-decoration: none;
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #3D9CEA;
+}
+.site-articles__item-hash + .site-articles__item-hash{
+  margin-left: 7px;
+}
+
+.site-articles__item-time{
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+  margin-left: 182px;
+  margin-bottom: 2px;
+}
+.site-articles__item-title{
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 29px;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 13px;
+}
+.site-articles__item-text{
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin: 0;
+  margin-bottom: 35px;
+}
+.site-articles__item-link{
+  display: flex;
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #333333;
+  &::before{
+    content: "";
+    background-image: url(../../images/pet.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 23px;
+    height: 21px;
+    margin-right: 4px;
+  }
+  &:hover{
+    color: #FFBD54;
+  }
+  &:active{
+    color: #333333;
+    opacity: 0.6;
+  }
+}

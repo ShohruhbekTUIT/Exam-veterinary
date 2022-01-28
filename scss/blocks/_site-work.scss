@@ -1,0 +1,58 @@
+.site-work{
+  background-image: url(../../images/dog-form.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 198px 520px 153px 287px;
+  margin-bottom: 151px;
+}
+.site-work__title{
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 32px;
+}
+.site-work__form{
+  display: flex;
+}
+.site-work__input{
+  width: 336px;
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #949494;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 147px 12px 22px;
+  margin-right: 21px;
+}
+.site-work__button{
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background-color: #333333;
+  border-radius: 3px;
+  border: none;
+  padding: 15px 53px 14px 51px;
+  &:hover{
+    color: #333333;
+    background-color: #FFBD54;
+    border-radius: 3px;
+  }
+  &:active{
+    opacity: 0.6;
+  }
+}

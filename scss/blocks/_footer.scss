@@ -1,0 +1,120 @@
+.site-footer{
+  padding: 54px 65px 23px 65px;
+  height: 221px;
+  background-color: #F3F3F3;
+  border: 1px solid #EBEBEB;
+  box-sizing: border-box;
+  display: flex;
+}
+.site-footer__img{
+  margin-right: 65px;
+}
+.site-footer__list{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  &:nth-child(3){
+    margin-left: 87px;
+    margin-right: 111px;
+  }
+}
+.site-footer__item{
+  list-style: none;
+  margin-bottom: 14px;
+}
+.site-footer__item-link{
+  text-decoration: none;
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  &:hover{
+    color: #FFBD54;
+  }
+  &:active{
+    color: rgba(51, 51, 51, 0.7);
+  }
+}
+.site-footer__data{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  margin-right: 105px;
+  &::before{
+    content: "";
+    left: -30px;
+    position: absolute;
+    background-image: url(../../images/kalendar.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+  }
+}
+.site-footer__address{
+  position: relative;
+  font-family: "Futura";
+  font-style: normal;
+  width: 157px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  color: #333333;
+  margin-right: 80px;
+  &::before{
+
+    position: absolute;
+    content: "";
+    background-image: url(../images/house.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: -26px;
+    width: 18px;
+    height: 18px;
+    margin-right: 9px;
+  
+  }
+}
+.site-footer__phone{
+  width: 113px;
+  position: relative;
+  &::before{
+    content: "";
+    background-image: url(../../images/phone.svg);
+    width: 18px;
+    height: 18px;
+    left: -25px;
+    margin-right: 9px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  position: absolute;
+  }
+}
+.site-footer__tel{
+  font-family: "Futura";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #333333;
+  &:hover{
+    color: #FFBD54;
+  }
+  &:active{
+    color: #333333;
+    opacity: 0.6;
+  }
+}
